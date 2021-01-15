@@ -9,11 +9,11 @@ export default class Home extends Component {
             <>
             <div className="wrapper">
                 <Helmet>
-                    <title>Home | Doug's React Boiler</title>
+                    <title>Home | EDS - KC</title>
                 </Helmet>
-                <h1>Home</h1>
+                <h1>Educational Diagnostic Services</h1>
                 {/* TODO: update content */}
-                <p>Welcome to Doug's React Boiler, click around a bit, it's a clean slate for you!</p>
+                <p>Welcome</p>
                 <br/>
                 <Grid fluid>
                     <Row center="xs">
@@ -39,14 +39,6 @@ export default class Home extends Component {
                         </Col>
                     </Row>
                 </Grid>
-                <br/>
-                <div className="center-text">
-                    <a href="https://www.github.com/douglasrcjames/dougs-react-boiler" target="_blank" rel="noopener noreferrer">
-                        <button className="md-blue-btn">
-                            Visit Github <i className="fab fa-github" />
-                        </button>
-                    </a>
-                </div>
             </div>
             <div className="full-width bg-blue">
                 <div className="wrapper white">

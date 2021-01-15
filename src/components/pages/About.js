@@ -7,24 +7,15 @@ export default class About extends Component {
         return (
             <div className="wrapper">
                 <Helmet>
-                    <title>About | Doug's React Boiler</title>
+                    <title>About | EDS - KC</title>
                 </Helmet>
                 <h1>About</h1>
                 {/* TODO: update content */}
                 <p>
-                    This project was built from Doug's boilerplate for 
-                    React.js <a rel="noopener noreferrer" href="https://github.com/douglasrcjames/dougs-react-boiler" target="_blank">dougs-react-boiler</a> used for web apps and was 
-                    further bootstrapped from <a rel="noopener noreferrer" href="https://github.com/facebook/create-react-app" target="_blank">Create React App</a>. 
-                    In this setup, we have Doug's base CSS library, base React components (like Header and Footer), directories structured, React Router ready to go, and more! 
+                    Kristin Droege is an Doctor of Child Development and an lifelong Educator. 
+                    Hire her to figure out whats up with your kids.
                 </p>
 
-                <div className="center-text">
-                    <Link to="/bad-link">
-                        <button className="md-blue-btn">
-                            See 404 error
-                        </button>
-                    </Link>
-                </div>
 
                 <p>
                     Adding a bunch of text here so we know what a long page might look like! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis erat a 
@@ -40,7 +31,7 @@ export default class About extends Component {
                     sed lorem ac faucibus. Sed magna arcu, imperdiet cursus feugiat id, pulvinar eget nulla. Vivamus vitae molestie nunc, sit amet eleifend nisl. Vestibulum ut ante 
                     pharetra, congue nulla et, fermentum sem. Vestibulum tincidunt pulvinar iaculis.
                 </p>
-                <img src={require("../../assets/images/logos/logo512.png")} alt="logo" className="large responsive center" />
+                <img src={require("../../assets/images/logos/logotemp.png")} alt="logo" className="large responsive center" />
                 <p>
                     Sed tristique mi felis, quis rhoncus felis pellentesque ac. Aenean condimentum eu felis sed lacinia. Nam eget maximus justo. Aliquam mollis lorem et magna viverra lacinia. 
                     Proin quam augue, fringilla a lobortis rhoncus, semper vel dui. Vestibulum gravida massa elit, vel sodales ex porttitor quis. Nam pretium tempor odio. Nam felis eros, 

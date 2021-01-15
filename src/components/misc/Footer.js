@@ -30,50 +30,31 @@ export default class Footer extends Component {
             <footer>
                 <div className={this.state.deviceWidth >= 900 ? "f-container" : "hide"}>
                     <div className="left">
-                        &nbsp;&nbsp;<Link to="/about">About</Link> | <Link to="/terms">Terms &amp; Conditions</Link> | <Link to="/credits">Credits</Link>&nbsp;&nbsp;
+                        &nbsp;&nbsp;<Link to="/about">About</Link>&nbsp;&nbsp;
                     </div>
 
                     <div className="center">
-                        {/* TODO: update social links */}
                         <div className="center-text">
-                            <a href="https://www.linkedin.com/in/douglasrcjames" target="_blank" rel="noopener noreferrer" className="black">
+                            <a href="https://www.linkedin.com/in/kristin-droege-6565623/" target="_blank" rel="noopener noreferrer" className="black">
                                 <i className="fab fa-linkedin"/>
-                            </a>
-                            &nbsp;&nbsp;
-                            <a href="https://www.github.com/douglasrcjames" target="_blank" rel="noopener noreferrer" className="black">
-                                <i className="fab fa-github"/>
-                            </a>
-                            &nbsp;&nbsp;
-                            <a href="https://twitter.com/douglasrcjames" target="_blank" rel="noopener noreferrer" className="black">
-                                <i className="fab fa-twitter" />
                             </a>
                         </div>
                         &copy;
                         {' '}
                         {this.state.year}
                         {' '}
-                        {/* TODO: update name */}
-                        Doug's React Boiler
+                        EDS - KC
                     </div>
 
                     <div className="right">
-                        <a href="https://www.douglasrcjames.com" target="_blank" rel="noopener noreferrer"><i className="fas fa-tools"/> by douglasrcjames</a> 
+                        <a href="https://www.linkedin.com/in/nathan-a-elkind/" target="_blank" rel="noopener noreferrer"><i className="fas fa-tools"/> by Nathan A Elkind</a> 
                         &nbsp;&nbsp;
                     </div>
                 </div>
                 <div className={this.state.deviceWidth < 900 ? "f-container" : "hide"}>
                     <div>
-                        {/* TODO: update social links */}
-                        <a href="https://www.linkedin.com/in/douglasrcjames" target="_blank" rel="noopener noreferrer" className="black">
+                        <a href="https://www.linkedin.com/in/kristin-droege-6565623/" target="_blank" rel="noopener noreferrer" className="black">
                             <i className="fab fa-linkedin"/>
-                        </a>
-                        &nbsp;&nbsp;
-                        <a href="https://www.github.com/douglasrcjames" target="_blank" rel="noopener noreferrer" className="black">
-                            <i className="fab fa-github"/>
-                        </a>
-                        &nbsp;&nbsp;
-                        <a href="https://twitter.com/douglasrcjames" target="_blank" rel="noopener noreferrer" className="black">
-                            <i className="fab fa-twitter" />
                         </a>
                     </div>
                     <div>
@@ -81,14 +62,13 @@ export default class Footer extends Component {
                         {' '}
                         {this.state.year}
                         {' '}
-                        {/* TODO: update name */}
-                        Doug's React Boiler
+                        Education Diagnostic Services Kansas City
                     </div>
                     <div>
-                        <a href="https://www.douglasrcjames.com" target="_blank" rel="noopener noreferrer"><i className="fas fa-tools"/> by douglasrcjames</a> 
+                        <a href="https://www.linkedin.com/in/nathan-a-elkind/" target="_blank" rel="noopener noreferrer"><i className="fas fa-tools"/> by Nathan A Elkind</a> 
                     </div>
                     <div className="s-padding-b">
-                        <Link to="/about">About</Link> | <Link to="/terms">Terms &amp; Conditions</Link> | <Link to="/credits">Credits</Link> 
+                        <Link to="/about">About</Link>
                     </div>
                 </div>
             </footer>

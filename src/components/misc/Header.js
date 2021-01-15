@@ -10,13 +10,12 @@ class Header extends Component {
             <header>
                 <nav className="nav-container">
                     <Link to="/" className="">
-                        {/* TODO: update name & logo */}
                         <img
                             className="nav-logo"
                             alt="logo"
-                            src={require("../../assets/images/logos/logo512.png")}
+                            src={require("../../assets/images/logos/logotemp.png")}
                         />
-                        <span className="nav-l-text">Doug's React Boiler</span>
+                        <span className="nav-l-text">EDS - KC</span>
                     </Link>
                     <div className="nav-links">
                         <NavLink 
